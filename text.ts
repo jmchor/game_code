@@ -1,18 +1,18 @@
 class Ghost {
 
-    hp:number;
-    mp:number;
-    constructor( hp: number, mp: number) {
+    lifePoints:number;
+    attackValue:number;
+    constructor( lifePoints: number, attackValue: number) {
 
-        this.hp = hp;
-        this.mp = mp;
+        this.lifePoints = lifePoints;
+        this.attackValue = attackValue;
     }
 
-    getHp() {
-        return this.hp;
+    getLifePoints() {
+        return this.lifePoints;
     }
-    getmp() {
-        return this.mp;
+    getAttackValue() {
+        return this.attackValue;
     }
 
 }
