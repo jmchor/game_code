@@ -1,17 +1,13 @@
-class Player {
-    name:string;
-    species:string;
+class Ghost {
+
     hp:number;
     mp:number;
-    constructor(name: string, species: string, hp: number, mp: number) {
-        this.name = name;
-        this.species = species;
+    constructor( hp: number, mp: number) {
+
         this.hp = hp;
         this.mp = mp;
     }
-    getName() {
-        return this.name;
-    }
+
     getHp() {
         return this.hp;
     }
@@ -20,3 +16,4 @@ class Player {
     }
 
 }
+
